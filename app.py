@@ -172,7 +172,7 @@ def scrape_all_events():
                 potential_links.append(href)
         
         # Limit to first 10-20 events to avoid overloading
-        event_links = potential_links[:20]
+        event_links = potential_links
         
         links = set({})
         # Process each event link
