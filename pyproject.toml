@@ -11,6 +11,7 @@ dependencies = [
 ]
 
 [tool.poetry]
+package-mode = false
 
 [tool.poetry.group.dev.dependencies]
 supabase = "^2.13.0"
